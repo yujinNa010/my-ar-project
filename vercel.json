@@ -1,5 +1,5 @@
 {
-  // force redeploy test
+  "version": 2,
   "cleanUrls": true,
   "trailingSlash": false,
   "headers": [
@@ -13,3 +13,7 @@
       "source": "/(.*)\\.usdz",
       "headers": [
         { "key": "Content-Type", "value": "model/vnd.usdz+zip" }
+      ]
+    }
+  ]
+}
