@@ -38,13 +38,12 @@ export default function Home() {
       </head>
       <body>
         <model-viewer
-          src="/api/model"
+          src="/model.glb"
           alt="My 3D Model"
           ar
-          ar-modes="scene-viewer webxr quick-look"
+          ar-modes="scene-viewer webxr"
           camera-controls
           shadow-intensity="1"
-          autoplay
         >
           <button slot="ar-button">View in AR</button>
         </model-viewer>
