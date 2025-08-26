@@ -1,8 +1,7 @@
 export default function Home() {
   return (
-    <html lang="en">
+    <>
       <head>
-        <meta charSet="UTF-8" />
         <title>My AR Model</title>
         <script
           type="module"
@@ -48,6 +47,6 @@ export default function Home() {
           <button slot="ar-button">View in AR</button>
         </model-viewer>
       </body>
-    </html>
+    </>
   );
 }
